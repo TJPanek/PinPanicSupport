@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pin Panic — Support</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #fff;
+      text-align: center;
+      padding: 60px 24px 48px;
+    }
+
+    header .icon {
+      font-size: 64px;
+      margin-bottom: 16px;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #a0aec0;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #1d1d1f;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #f0f0f0;
+      padding: 16px 0;
+    }
+
+    .faq-item:last-child { border-bottom: none; padding-bottom: 0; }
+    .faq-item:first-child { padding-top: 0; }
+
+    .faq-item strong {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .faq-item p {
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    .contact-email {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 24px;
+      background: #1a1a2e;
+      color: #fff;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+
+    .contact-email:hover { background: #16213e; }
+
+    .privacy-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .privacy-item:last-child { border-bottom: none; }
+
+    .privacy-item .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #34c759;
+      margin-top: 7px;
+      flex-shrink: 0;
+    }
+
+    .privacy-item p { color: #555; font-size: 0.95rem; }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #999;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="icon">📍</div>
+  <h1>Pin Panic</h1>
+  <p>Disney Pin Trading &amp; Collection Tracker</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <strong>How do I restore my purchases?</strong>
+      <p>Open the app, go to the upgrade screen, and tap <em>Restore Purchases</em> at the bottom. Make sure you're signed in with the same Apple ID used for the original purchase.</p>
+    </div>
+
+    <div class="faq-item">
+      <strong>How do I back up my collection?</strong>
+      <p>Go to <em>Stats → Export Collection</em>. This saves a JSON file to your device that you can store in iCloud Drive, AirDrop to another device, or keep as a backup.</p>
+    </div>
+
+    <div class="faq-item">
+      <strong>How do I import a backup?</strong>
+      <p>Go to <em>Stats → Import Collection</em> and select your previously exported JSON file. Imported pins are merged with your existing collection.</p>
+    </div>
+
+    <div class="faq-item">
+      <strong>Why does the market value lookup show no results?</strong>
+      <p>Market value is sourced from recent eBay sold listings. If no results appear, there may not be recent sales data for that pin. Try again later or search eBay directly.</p>
+    </div>
+
+    <div class="faq-item">
+      <strong>How do I delete a pin?</strong>
+      <p>Open the pin's detail view and scroll to the bottom, or swipe left on the pin in the collection grid and tap Delete.</p>
+    </div>
+
+    <div class="faq-item">
+      <strong>What is the free pin limit?</strong>
+      <p>The free version allows up to 100 pins in your collection and 100 pins on your wishlist. Upgrade to Pin Panic Pro or Pin Panic+ for unlimited pins.</p>
+    </div>
+
+    <div class="faq-item">
+      <strong>Does Pin Panic work offline?</strong>
+      <p>Yes. Your collection is stored locally on your device. An internet connection is only required for market value lookups and iCloud sync (Pin Panic+ subscribers).</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Support</h2>
+    <p>Have a question not answered above? Send us an email and we'll get back to you as soon as possible.</p>
+    <a class="contact-email" href="mailto:tjpanek@icloud.com">tjpanek@icloud.com</a>
+  </section>
+
+  <section>
+    <h2>Privacy Policy</h2>
+
+    <div class="privacy-item">
+      <div class="dot"></div>
+      <p><strong>No account required.</strong> Pin Panic works without creating an account. Your data belongs to you.</p>
+    </div>
+
+    <div class="privacy-item">
+      <div class="dot"></div>
+      <p><strong>No third-party analytics.</strong> We do not use any third-party tracking or analytics SDKs.</p>
+    </div>
+
+    <div class="privacy-item">
+      <div class="dot"></div>
+      <p><strong>Your collection stays on your device.</strong> All pin data is stored locally. Pin Panic+ subscribers sync via their private iCloud account — we never have access to your data.</p>
+    </div>
+
+    <div class="privacy-item">
+      <div class="dot"></div>
+      <p><strong>Market value lookups.</strong> When you search for a pin's value, a query is sent to eBay to retrieve recent sold listing prices. No personal information is included in this request.</p>
+    </div>
+
+    <div class="privacy-item">
+      <div class="dot"></div>
+      <p><strong>Camera &amp; Photos.</strong> Camera and photo library access is used only to add images to your pin collection. Images are stored on your device and never uploaded to our servers.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2026 Pin Panic. All rights reserved.
+</footer>
+
+</body>
+</html>
